@@ -6,10 +6,14 @@
     <title><?php echo $title ?></title>
 </head>
 <style>
+    table {
+        width: 100%;
+    }
     table, th, td {
         text-align: center;
         border: 1px solid black;
         border-collapse: collapse;
+
     }
     th, td {
         padding: 10px;
