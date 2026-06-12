@@ -45,7 +45,7 @@
                 'totalpage' => $totalRecord
             ];
         }
-
+//ud
         public function getById($id) {
             $query = "SELECT * FROM tbl_sinhvien WHERE id = :id";
             $stmt = $this->conn->prepare($query);

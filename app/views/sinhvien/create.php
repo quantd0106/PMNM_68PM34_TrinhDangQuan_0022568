@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang tạo sinh viên</title>
 </head>
-<body>
+<body>//ud
     <h2>Thêm mới sinh viên </h2>
     <form action="/QLSINHVIEN/public/sinhvien/store" method="post">
         <label for="hoten">Họ tên</label>

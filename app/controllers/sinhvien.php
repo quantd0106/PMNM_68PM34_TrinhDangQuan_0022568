@@ -7,7 +7,7 @@ class sinhvien extends Controller {
         $currentpage = max(1, (int)$page);
         $limit = 3;
         $offset = ($currentpage - 1) * $limit;
-
+//ud
 
         $sinhvienModel = $this->model('sinhvienModel');
         // $sinhvien = $sinhvienModel->getALLSinhVien();
