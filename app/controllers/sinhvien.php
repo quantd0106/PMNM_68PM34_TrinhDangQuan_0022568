@@ -7,7 +7,7 @@ class sinhvien extends Controller {
         $currentpage = max(1, (int)$page);
         $limit = isset($_GET['limit']) ? (int)$_GET['limit'] : 3;
         $offset = ($currentpage - 1) * $limit;
-
+//S
         $search = isset($_GET['search']) ? trim($_GET['search']) : '';
         $filter_lop = isset($_GET['filter_lop']) ? (string)trim($_GET['filter_lop']) : '';
         $sort_order = isset($_GET['sort_order']) ? (string)trim($_GET['sort_order']) : 'ASC';

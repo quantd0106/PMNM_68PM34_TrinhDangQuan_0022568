@@ -60,7 +60,7 @@
             if ($filter_lop !== '') {
                 $params[':filter_lop'] = (int)$filter_lop;
             }
-            
+            //SS
             // Đếm tổng số bản ghi
             $sqlCount = "SELECT COUNT(*) as total FROM tbl_sinhvien sv JOIN tbl_lophoc lh ON sv.lop_id = lh.id" . $where_clause;
             $stmtCount = $this->conn->prepare($sqlCount);
